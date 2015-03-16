@@ -28,42 +28,17 @@
 egret_h5.startGame = function () {
     var  context = egret.MainContext.instance;
     context.touchContext = new egret.HTML5TouchContext();
-    context.deviceContext = new egret.HTML5DeviceContext(40);
+    context.deviceContext = new egret.HTML5DeviceContext();
     context.netContext = new egret.HTML5NetContext();
 
     egret.StageDelegate.getInstance().setDesignSize(480, 800);
-    var screenWidth = document.documentElement.clientWidth;
-    var screenHeight = document.documentElement.clientHeight;
-    var devicePixelRatio = 1;   // Hacking for iPhone(s)
-    switch (screenWidth) {
-        case 320://iphone4\5
-            devicePixelRatio = 2;
-            break;
-        case 375://iphone 6
-            devicePixelRatio = 2;
-            break;
-        case 414://iphone 6+
-            devicePixelRatio = 3;
-            break;
-        default:
-            devicePixelRatio = 1;
-            break;
-    }
-    screenWidth *= devicePixelRatio;
-    screenHeight *= devicePixelRatio;
-    context.stage = new egret.Stage(screenWidth, screenHeight);
-
-    //var scaleMode =  egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE ? egret.StageScaleMode.SHOW_ALL : egret.StageScaleMode.NO_SCALE;
-    var scaleMode = egret.StageScaleMode.NO_SCALE;
-    /*if (egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE)*/ {
-        scaleMode = (screenWidth / screenHeight <= 1.67) ? egret.StageScaleMode.NO_BORDER : egret.StageScaleMode.SHOW_ALL;
-    }
+    context.stage = new egret.Stage();
+    var scaleMode =  egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE ? egret.StageScaleMode.SHOW_ALL : egret.StageScaleMode.NO_SCALE;
     context.stage.scaleMode = scaleMode;
 
     //WebGL是egret的Beta特性，默认关闭
     var rendererType = 0;
-    if (rendererType == 1) {
-    //if (egret.WebGLUtils.checkCanUseWebGL()) {
+    if (rendererType == 1) {// egret.WebGLUtils.checkCanUseWebGL()) {
         context.rendererContext = new egret.WebGLRenderer();
     }
     else {
