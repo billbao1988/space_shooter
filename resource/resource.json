@@ -1,7 +1,7 @@
 {
 	"groups":[
 	{
-		"keys":"checkbox_select_disabled_png,checkbox_select_normal_png,checkbox_unselect_disabled_png,checkbox_unselect_normal_png,hslider_fill_png,hslider_thumb_png,hslider_track_png,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,radiobutton_select_disabled_png,radiobutton_select_normal_png,radiobutton_unselect_disabled_png,radiobutton_unselect_normal_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,tree_back_png,tree_btndisabled_png,tree_btndisabledselect_png,tree_btndown_png,tree_btndownselect_png,tree_btnup_png,tree_btnupselect_png,vslider_fill_png,vslider_thumb_png,vslider_track_png,onoffbutton_off_label_png,onoffbutton_off_thumb_png,onoffbutton_off_track_png,onoffbutton_on_label_png,onoffbutton_on_thumb_png,onoffbutton_on_track_png,tree_icon_dir_png,tree_icon_file_png,panel_headeback_png,bgImage,app_list_item_cutlline_png,app_list_item_select_png,app_list_item_up_png,dropdownlist_arrow_down_png,dropdownlist_arrow_up_png,DropDownListButtonSkin_down_png,DropDownListButtonSkin_up_png,closebtn_down_png,closebtn_up_png,checkbox_select_over_png,checkbox_unselect_over_png,radiobutton_select_over_png,radiobutton_unselect_over_png,hospital,house_agent,post_office,bank,days_remaining,tab_left,tab_right,frame_bg,edit_bg,next_place,next_place_pressed,top,top_pressed,setting,setting_pressed,restart,restart_pressed,reduce,add,close_dialog,dialog_bg,input_bg,massage_bg,voice",
+		"keys":"checkbox_select_disabled_png,checkbox_select_normal_png,checkbox_unselect_disabled_png,checkbox_unselect_normal_png,hslider_fill_png,hslider_thumb_png,hslider_track_png,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,radiobutton_select_disabled_png,radiobutton_select_normal_png,radiobutton_unselect_disabled_png,radiobutton_unselect_normal_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,tree_back_png,tree_btndisabled_png,tree_btndisabledselect_png,tree_btndown_png,tree_btndownselect_png,tree_btnup_png,tree_btnupselect_png,vslider_fill_png,vslider_thumb_png,vslider_track_png,onoffbutton_off_label_png,onoffbutton_off_thumb_png,onoffbutton_off_track_png,onoffbutton_on_label_png,onoffbutton_on_thumb_png,onoffbutton_on_track_png,tree_icon_dir_png,tree_icon_file_png,panel_headeback_png,bgImage,app_list_item_cutlline_png,app_list_item_select_png,app_list_item_up_png,dropdownlist_arrow_down_png,dropdownlist_arrow_up_png,DropDownListButtonSkin_down_png,DropDownListButtonSkin_up_png,closebtn_down_png,closebtn_up_png,checkbox_select_over_png,checkbox_unselect_over_png,radiobutton_select_over_png,radiobutton_unselect_over_png,btnStart,p1,p2,b1,b2,b3,logo,tailParticle_json,tailParticle_png,sfx_hit,sfx_point,sfx_wing,acceptBtn,alertBg,cancelBtn",
 		"name":"preload"
 	}],
 	"resources":[
@@ -254,7 +254,7 @@
 	{
 		"name":"bgImage",
 		"type":"image",
-		"url":"assets/ui_bg.png"
+		"url":"assets/bg.jpg"
 	},
 	{
 		"name":"app_list_item_cutlline_png",
@@ -326,130 +326,78 @@
 		"url":"assets/simple/TextInput/textbox.png"
 	},
 	{
-		"name":"hospital",
+		"name":"btnStart",
 		"type":"image",
-		"url":"assets/hospital.png"
+		"url":"assets/btn_start.png"
 	},
 	{
-		"name":"house_agent",
+		"name":"p1",
 		"type":"image",
-		"url":"assets/house_agent.png"
+		"url":"assets/p1.png"
 	},
 	{
-		"name":"post_office",
+		"name":"p2",
 		"type":"image",
-		"url":"assets/post_office.png"
+		"url":"assets/p2.png"
 	},
 	{
-		"name":"bank",
+		"name":"b1",
 		"type":"image",
-		"url":"assets/bank.png"
+		"url":"assets/b1.png"
 	},
 	{
-		"name":"days_remaining",
+		"name":"b2",
 		"type":"image",
-		"url":"assets/days_remaining.png"
+		"url":"assets/b2.png"
 	},
 	{
-		"name":"tab_left",
-		"scale9grid":"5,5,46,28",
+		"name":"b3",
 		"type":"image",
-		"url":"assets/tab_left.png"
+		"url":"assets/b3.png"
 	},
 	{
-		"name":"tab_right",
-		"scale9grid":"5,5,167,28",
+		"name":"logo",
 		"type":"image",
-		"url":"assets/tab_right.png"
+		"url":"assets/logo.png"
 	},
 	{
-		"name":"frame_bg",
-		"type":"image",
-		"url":"assets/frame_bg.png"
+		"name":"tailParticle_json",
+		"type":"json",
+		"url":"assets/particle/tailParticle.json"
 	},
 	{
-		"name":"edit_bg",
-		"scale9grid":"5,3,79,24",
+		"name":"tailParticle_png",
 		"type":"image",
-		"url":"assets/edit_bg.png"
+		"url":"assets/particle/tailParticle.png"
 	},
 	{
-		"name":"next_place",
-		"type":"image",
-		"url":"assets/next_place.png"
+		"name":"sfx_hit",
+		"type":"sound",
+		"url":"assets/sound/sfx_hit.mp3"
 	},
 	{
-		"name":"next_place_pressed",
-		"type":"image",
-		"url":"assets/next_place_pressed.png"
+		"name":"sfx_point",
+		"type":"sound",
+		"url":"assets/sound/sfx_point.mp3"
 	},
 	{
-		"name":"top",
-		"type":"image",
-		"url":"assets/top.png"
+		"name":"sfx_wing",
+		"type":"sound",
+		"url":"assets/sound/sfx_wing.mp3"
 	},
 	{
-		"name":"top_pressed",
+		"name":"acceptBtn",
 		"type":"image",
-		"url":"assets/top_pressed.png"
+		"url":"assets/acceptBtn.png"
 	},
 	{
-		"name":"setting",
+		"name":"alertBg",
 		"type":"image",
-		"url":"assets/setting.png"
+		"url":"assets/alertBg.png"
 	},
 	{
-		"name":"setting_pressed",
+		"name":"cancelBtn",
 		"type":"image",
-		"url":"assets/setting_pressed.png"
-	},
-	{
-		"name":"restart",
-		"type":"image",
-		"url":"assets/restart.png"
-	},
-	{
-		"name":"restart_pressed",
-		"type":"image",
-		"url":"assets/restart_pressed.png"
-	},
-	{
-		"name":"reduce",
-		"scale9grid":"11,11,42,43",
-		"type":"image",
-		"url":"assets/reduce.png"
-	},
-	{
-		"name":"add",
-		"scale9grid":"11,11,43,46",
-		"type":"image",
-		"url":"assets/add.png"
-	},
-	{
-		"name":"close_dialog",
-		"type":"image",
-		"url":"assets/close_dialog.png"
-	},
-	{
-		"name":"dialog_bg",
-		"scale9grid":"45,44,513,260",
-		"type":"image",
-		"url":"assets/dialog_bg.png"
-	},
-	{
-		"name":"input_bg",
-		"scale9grid":"15,13,209,33",
-		"type":"image",
-		"url":"assets/input_bg.png"
-	},
-	{
-		"name":"massage_bg",
-		"type":"image",
-		"url":"assets/massage_bg.png"
-	},
-	{
-		"name":"voice",
-		"type":"image",
-		"url":"assets/voice.png"
+		"url":"assets/cancelBtn.png"
 	}]
 }
