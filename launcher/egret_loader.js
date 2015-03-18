@@ -63,13 +63,13 @@ egret_h5.startGame = function () {
     //WebGL是egret的Beta特性，默认关闭
     var rendererType = 0;
     //if (rendererType == 1) {
-    if (egret.WebGLUtils.checkCanUseWebGL()) {
+/*    if (egret.WebGLUtils.checkCanUseWebGL()) {
         console.log("Use WebGL mode");
         context.rendererContext = new egret.WebGLRenderer();
     }
-    else {
+    else {*/
         context.rendererContext = new egret.HTML5CanvasRenderer();
-    }
+//    }
 
     egret.MainContext.instance.rendererContext.texture_scale_factor = 1;
     context.run();
