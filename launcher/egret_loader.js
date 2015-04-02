@@ -31,7 +31,7 @@ egret_h5.startGame = function () {
     context.deviceContext = new egret.HTML5DeviceContext();
     context.netContext = new egret.HTML5NetContext();
 
-    egret.StageDelegate.getInstance().setDesignSize(480, 800);
+    egret.StageDelegate.getInstance().setDesignSize(640, 960);
     var screenWidth = document.documentElement.clientWidth;
     var screenHeight = document.documentElement.clientHeight;
     var devicePixelRatio = 1;   // Hacking for iPhone(s)

@@ -1,7 +1,7 @@
 {
 	"groups":[
 	{
-		"keys":"checkbox_select_disabled_png,checkbox_select_normal_png,checkbox_unselect_disabled_png,checkbox_unselect_normal_png,hslider_fill_png,hslider_thumb_png,hslider_track_png,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,radiobutton_select_disabled_png,radiobutton_select_normal_png,radiobutton_unselect_disabled_png,radiobutton_unselect_normal_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,tree_back_png,tree_btndisabled_png,tree_btndisabledselect_png,tree_btndown_png,tree_btndownselect_png,tree_btnup_png,tree_btnupselect_png,vslider_fill_png,vslider_thumb_png,vslider_track_png,onoffbutton_off_label_png,onoffbutton_off_thumb_png,onoffbutton_off_track_png,onoffbutton_on_label_png,onoffbutton_on_thumb_png,onoffbutton_on_track_png,tree_icon_dir_png,tree_icon_file_png,panel_headeback_png,bgImage,app_list_item_cutlline_png,app_list_item_select_png,app_list_item_up_png,dropdownlist_arrow_down_png,dropdownlist_arrow_up_png,DropDownListButtonSkin_down_png,DropDownListButtonSkin_up_png,closebtn_down_png,closebtn_up_png,checkbox_select_over_png,checkbox_unselect_over_png,radiobutton_select_over_png,radiobutton_unselect_over_png,btnStart,p1,p2,b1,b2,b3,logo,tailParticle_json,tailParticle_png,acceptBtn,alertBg,cancelBtn,circle,s_hit,s_point,s_wing,hitParticle_json",
+		"keys":"checkbox_select_disabled_png,checkbox_select_normal_png,checkbox_unselect_disabled_png,checkbox_unselect_normal_png,hslider_fill_png,hslider_thumb_png,hslider_track_png,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,radiobutton_select_disabled_png,radiobutton_select_normal_png,radiobutton_unselect_disabled_png,radiobutton_unselect_normal_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,tree_back_png,tree_btndisabled_png,tree_btndisabledselect_png,tree_btndown_png,tree_btndownselect_png,tree_btnup_png,tree_btnupselect_png,vslider_fill_png,vslider_thumb_png,vslider_track_png,onoffbutton_off_label_png,onoffbutton_off_thumb_png,onoffbutton_off_track_png,onoffbutton_on_label_png,onoffbutton_on_thumb_png,onoffbutton_on_track_png,tree_icon_dir_png,tree_icon_file_png,panel_headeback_png,bgImage,app_list_item_cutlline_png,app_list_item_select_png,app_list_item_up_png,dropdownlist_arrow_down_png,dropdownlist_arrow_up_png,DropDownListButtonSkin_down_png,DropDownListButtonSkin_up_png,closebtn_down_png,closebtn_up_png,checkbox_select_over_png,checkbox_unselect_over_png,radiobutton_select_over_png,radiobutton_unselect_over_png,btnStart,p1,p2,b1,b2,b3,logo,tailParticle_json,tailParticle_png,acceptBtn,alertBg,cancelBtn,circle,s_hit,s_point,s_wing,hitParticle_json,close_dialog,level_1,level_2,level_3,list_item,medal_1,medal_2,medal_3,rank,ranking_bg,user_photo,top",
 		"name":"preload"
 	}],
 	"resources":[
@@ -410,5 +410,70 @@
 		"name":"hitParticle_json",
 		"type":"json",
 		"url":"assets/particle/hitParticle.json"
+	},
+	{
+		"name":"close_dialog",
+		"type":"image",
+		"url":"assets/close_dialog.png"
+	},
+	{
+		"name":"level_1",
+		"scale9grid":"8,8,50,50",
+		"type":"image",
+		"url":"assets/level_1.png"
+	},
+	{
+		"name":"level_2",
+		"scale9grid":"8,8,50,50",
+		"type":"image",
+		"url":"assets/level_2.png"
+	},
+	{
+		"name":"level_3",
+		"scale9grid":"8,8,50,50",
+		"type":"image",
+		"url":"assets/level_3.png"
+	},
+	{
+		"name":"list_item",
+		"scale9grid":"8,8,50,50",
+		"type":"image",
+		"url":"assets/list_item.png"
+	},
+	{
+		"name":"medal_1",
+		"type":"image",
+		"url":"assets/medal_1.png"
+	},
+	{
+		"name":"medal_2",
+		"type":"image",
+		"url":"assets/medal_2.png"
+	},
+	{
+		"name":"medal_3",
+		"type":"image",
+		"url":"assets/medal_3.png"
+	},
+	{
+		"name":"rank",
+		"type":"image",
+		"url":"assets/rank.png"
+	},
+	{
+		"name":"ranking_bg",
+		"scale9grid":"39,98,479,37",
+		"type":"image",
+		"url":"assets/ranking_bg.png"
+	},
+	{
+		"name":"user_photo",
+		"type":"image",
+		"url":"assets/user_photo.png"
+	},
+	{
+		"name":"top",
+		"type":"image",
+		"url":"assets/top.png"
 	}]
 }
